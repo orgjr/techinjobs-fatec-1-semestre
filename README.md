@@ -18,9 +18,9 @@ do curso de Desenvolvimento de Software Multiplataforma da Fatec Osasco.
   Será uma plataforma web desenvolvida utilizando as linguagens HTML5, CSS3 e JavaScript.
   
 ## O grupo 2B é formado por: 
-  Rafael Barbosa de Oliveira
-  Vlad Gustavo de Souza Ribeiro
-  Darlan Ferreira Fernandes
-  Cristiano Garcia Carvalhaes
-  João Santos
+  Rafael Barbosa de Oliveira <br/>
+  Vlad Gustavo de Souza Ribeiro <br/>
+  Darlan Ferreira Fernandes <br/>
+  Cristiano Garcia Carvalhaes <br/>
+  João Santos <br/>
   Osmar Roberto Garcia Junior
