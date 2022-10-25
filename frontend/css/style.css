@@ -1,0 +1,188 @@
+:root {
+    --details-color: #E3A92B;
+    --semi-black: #565656;
+    --gray-insidebox: #AAAAAA;
+    --gray-background: #fdfdfd;
+    --strong-black: #212121;
+    --border-color: #DADADA;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+header {
+    
+    display: inline-block;
+    width: 100%;
+    border-bottom: 0.16rem solid #212121;
+    margin-bottom: 5vh;
+    /* max-width: 980px; */
+}
+
+header img{
+    margin-left: 5vw;
+}
+
+header h1{
+    display: inline-block;
+    margin-left: 1vw;
+}
+
+body {
+    color: var(--semi-black);
+    background: var(--gray-background);
+    font-family: 'Poppins','sans-serif';
+    font-size: 1.3rem;
+}
+
+
+#logo{
+    color:#E3A92B;
+    margin: 0;
+}
+
+#logo:hover{
+    color: #213242;
+    margin: 0;
+    cursor: default;
+}
+
+h2{
+    
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+h2#vacancies-list-title {
+    margin-top: 5vh;
+}
+
+/* ==================== SearchBoxes */
+
+#search-boxes{
+    padding: 2.9vw 2vw 2.9vw 2vw;
+    background-color: #FFFFFF;
+    border-radius: 0.9rem;
+    border: 0.05rem solid rgb(238, 238, 238);
+    width: 72vw;
+}
+
+@media screen and (max-width:500px)
+{
+    #search-boxes{
+        padding: 1.9vw 2vw 1.9vw 2vw;
+        background-color: #FFFFFF;
+        border-radius: 0.9rem;
+        border: 0.05rem solid rgb(238, 238, 238);
+        width: 72vw;
+    }
+
+    #search-boxes-btn{
+        display: block;
+    }
+}
+
+
+input#key-words{
+    padding: 0.9vw;
+    border-radius: 0.3rem;
+    width: 30vw;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: var(--gray-insidebox);
+    font-size: 1.2rem;
+}
+
+input#key-words:hover{
+    border-color: var(--border-color);
+}
+
+#location{
+    padding: 0.9vw;
+    border-radius: 0.3rem;
+    width: 30vw;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: var(--gray-insidebox);
+    font-size: 1.2rem;
+}
+
+.search-box{
+    padding-left: 1.3rem;
+}
+
+.search-box {
+    display: inline-block;
+    
+}
+
+/* ============================= VAGAS */
+
+
+.vacancy{
+    padding: 1.4vh 2vw 1.4vh 2vw;
+    display: inline-flex;
+    width: 72vw;
+    background-color: #FFFFFF;
+    border-radius: 0.9rem;
+    border: 0.05rem solid rgb(238, 238, 238);
+    cursor: default;
+    transition: .1s;
+}
+
+.vacancy:hover{
+    background-color: #FAFAFA;
+    transition: .1s;
+}
+
+.employer{
+    font-size: 1.2rem;
+    padding-right: .7rem;
+    width: 15%;
+}   
+
+.summary{
+    border-left: 0.2rem solid var(--details-color);
+    padding-left: .7rem;
+    padding-right: .7rem;
+    font-size: 1.2rem;
+    width: 42%;
+}
+
+.summary p{
+    font-size: 1.02rem;
+    word-wrap: break-word;
+}
+
+.salary{
+    border-left: 0.2rem solid var(--details-color);
+    padding-left: .7rem;
+    padding-right: .7rem;
+    font-size: 1.2rem;
+    width: 39%;
+}
+
+.salary p{
+    font-size: 1.02rem;
+    word-wrap: break-word;
+}
+
+/* .expand img{
+
+
+    
+} */
+
+.container{
+    width: min(80vw, 800px);
+    margin-left: 10vw;
+
+}
+
+
+
+
