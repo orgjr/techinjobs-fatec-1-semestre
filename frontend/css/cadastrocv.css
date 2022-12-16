@@ -1,0 +1,73 @@
+.box{
+    padding-bottom: 2%;
+
+}
+
+input[type=text]
+{
+    width: 80vw;
+    height: 3vh;
+    border: 1px solid #5c5c5c;
+    border-radius: 7px;
+    font-size: 1.1rem;
+}
+
+textarea{
+    padding: 10px 10px;
+    width: 80vw;
+    border: 1px solid #5c5c5c;
+    border-radius: 7px;
+    resize: none;
+    font-size: 1.1rem;
+}
+
+
+input[type=submit] {
+    padding: 15px 15px;
+    background:#ccc; 
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    border-radius: 5px; 
+    resize: none;
+    font-size: 1.2rem;
+}
+
+#nome{
+    padding: 10px 10px;
+}
+
+#objetivo 
+{
+    height: 15vh;
+}
+
+#experiencia
+{
+    height: 15vh;
+    word-break: break-word;
+}
+#formacao
+{
+    height: 15vh;
+} 
+#cursos 
+{
+    height: 15vh;
+}
+#psalarial
+{
+    padding: 10px 10px;
+}
+#competencias 
+{
+    height: 15vh;
+}
+#idiomas
+{
+    padding: 10px 10px;
+}
+#infocomplementar
+{
+    height: 15vh;
+}

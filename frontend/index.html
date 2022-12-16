@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
+        <script src="scripts/index.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap" rel="stylesheet">
@@ -13,11 +14,22 @@
     <body>
         <header>
             <img src="imgs/image 4.png"/><h1 id="logo">Tech in Jobs</h1>
+        
+            <div class="dropdown" style="float:right;">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="/frontend/index">Home</a>
+                    <a href="/frontend/cadastrocv">Cadastrar CV</a>
+                    <!-- <a href="#cadastrarvaga">Cadastrar Vaga</a> -->
+                </div>
+              </div>
+
         </header>
+
         <main class="container">      
             <section class="search-field">
                 <h2>Pesquise e encontre sua vaga em tecnologia.</h2>
-                <form action="">
+                <form action="jobsearch">
                     <div id="search-boxes">
                         <div class="search-box">
                             <label for="key-words">Buscar vagas:</label><br/>
@@ -46,7 +58,7 @@
                     <div class="salary">
                         <h3 id="salary-range">
                             Faixa-salarial
-                        </h3>
+                        </h3> 
                         <p>R$ 1.200,00 - R$ 4.500,00</p>
                     </div>
                     <div class="expand">
